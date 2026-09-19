@@ -8,6 +8,7 @@ st.caption("Built for Dark Store Hub Managers & Logistics Team Leads")
 
 # Sidebar - Hub Configuration
 st.sidebar.header("Hub Configuration")
+st.sidebar.markdown("[📂 View Source Code on GitHub](https://github.com/ParagMDas/dark-store-ops-dashboard)")
 hub_name = st.sidebar.selectbox("Select Hub Location", ["Geetanagar Hub", "Bijaynagar Sorting Center", "Dhupdhara Hub"])
 total_riders = st.sidebar.slider("Active Riders/Wishmasters", 5, 50, 20)
 
